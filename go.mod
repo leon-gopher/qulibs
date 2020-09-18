@@ -1,4 +1,4 @@
-module github.com/leon-yc/gopher/qulibs
+module github.com/leon-gopher/qulibs
 
 go 1.14
 

@@ -1,7 +1,7 @@
 package gorm
 
 import (
-	"github.com/leon-yc/gopher/qulibs"
+	"github.com/leon-gopher/qulibs"
 
 	// for mysql
 	_ "github.com/jinzhu/gorm/dialects/mysql"

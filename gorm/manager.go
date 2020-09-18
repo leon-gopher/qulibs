@@ -3,7 +3,7 @@ package gorm
 import (
 	"sync"
 
-	"github.com/leon-yc/gopher/qulibs"
+	"github.com/leon-gopher/qulibs"
 )
 
 // Manager manages multi client instances of gorm for easy usage.

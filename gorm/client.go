@@ -6,7 +6,7 @@ import (
 	"time"
 
 	gogorm "github.com/jinzhu/gorm"
-	"github.com/leon-yc/gopher/qulibs"
+	"github.com/leon-gopher/qulibs"
 	"github.com/opentracing/opentracing-go"
 )
 

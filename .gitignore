@@ -1,0 +1,7 @@
+.idea
+go.mod
+go.sum
+/conf
+#/vendor
+/bin
+/test

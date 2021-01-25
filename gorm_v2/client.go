@@ -2,7 +2,6 @@ package gorm
 
 import (
 	"context"
-	"fmt"
 	"sync"
 	"time"
 
@@ -35,7 +34,6 @@ func NewWithLogger(config *Config, log qulibs.Logger) (client *Client, err error
 	if err != nil {
 		return
 	}
-	fmt.Println(mysql.Open(mycfg.FormatDSN()))
 
 	db, err := gogorm.Open(mysql.Open(mycfg.FormatDSN()), &gogorm.Config{})
 	if err != nil {

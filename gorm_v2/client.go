@@ -123,6 +123,7 @@ func (c *Client) Trace(ctx context.Context, tracers ...opentracing.Tracer) *Trac
 }
 
 func (c *Client) TraceWithSpanContext(ctx opentracing.SpanContext, tracers ...opentracing.Tracer) *TraceClient {
+	c.RegisterTraceCallbacks()
 
 	var tracer opentracing.Tracer
 	if len(tracers) > 0 {
